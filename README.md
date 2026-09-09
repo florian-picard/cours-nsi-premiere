@@ -2,4 +2,4 @@
 
 Dépôt des cours de NSI du lycée Fustel de Coulanges (première). 
 
-Ça va être super !
+Ça va être super ! Si si, vraiment !
