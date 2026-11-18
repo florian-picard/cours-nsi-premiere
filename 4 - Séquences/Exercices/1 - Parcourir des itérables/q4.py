@@ -1,3 +1,4 @@
+
 def nombre_occurences(iterable, elem):
     compte = 0
     for e in iterable:
