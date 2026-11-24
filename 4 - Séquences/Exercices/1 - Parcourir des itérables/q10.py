@@ -25,5 +25,23 @@ def premier_mois_sous24(temperatures):
             return i
     return -1
 
+def premier_mois_sous(temperatures, seuil):
+    for i in range(len(temperatures)):
+        t = temperatures[i]
+        m = mois[i]
+        if t < seuil:
+            return m
+    return ""
 
+def mois_plus_chaud(temp):
+    indice = 0
+    record = temp[0]
+    for i in range(len(temp)):
+        t = temp[i]
+        if t > record:
+            record = t
+            indice = i
+    return mois[indice]
+        
+print(mois_plus_chaud(temperatures))
 
